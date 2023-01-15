@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!--
+    <p id="test0">er1</p>
+    <p id="test1">er2</p>
+    <p id="test2">er3</p>
+    <p id="test3">er4</p>
+    
+     <p id="ris"> Risultato = </p>
+    <p id="num1"> Numero 1: </p>
+    <p id="segno"> Segno: </p>
+    <p id="num2"> Numero 2: </p>
+    -->
+
+</head>
+
+<body>
+
+    <h2>Calcolatrice</h2>
+
+    <textarea id="valori" readonly raws="2"></textarea>
+
+
+    <br>
+    <button id="7" class="pulsante" value=7 onclick="AggNum(value)">7</button>
+    <button id="8" class="pulsante" value=8 onclick="AggNum(value)">8</button>
+    <button id="9" class="pulsante" value=9 onclick="AggNum(value)">9</button>
+    <button id="+" class="pulsante" value="+" onclick="Segno(value)">+</button>
+    <br>
+    <button id="4" class="pulsante" value=4 onclick="AggNum(value)">4</button>
+    <button id="5" class="pulsante" value=5 onclick="AggNum(value)">5</button>
+    <button id="6" class="pulsante" value=6 onclick="AggNum(value)">6</button>
+    <button id="-" class="pulsante" value="-" onclick="Segno(value)">-</button>
+    <br>
+    <button id="1" class="pulsante" value=1 onclick="AggNum(value)">1</button>
+    <button id="2" class="pulsante" value=2 onclick="AggNum(value)">2</button>
+    <button id="3" class="pulsante" value=3 onclick="AggNum(value)">3</button>
+    <button id="x" class="pulsante" value="*" onclick="Segno(value)">x</button>
+
+    <br>
+    <button id="0" class="pulsante" value=0 onclick="AggNum(value)">0</button>
+    <button id="00" class="pulsante" value=0 onclick="AggNum(value); AggNum(value)">00</button>
+    <button id="/" class="pulsante" value="/" onclick="Segno(value)">/</button>
+    <br>
+    <button id="calcolo" class="pulsante" onclick="Calcola()">Calcola</button>
+    <button id="reset" class="pulsante" onclick="Reset()">Reset</button>
+    <br>
+</body>
+
+</html>
