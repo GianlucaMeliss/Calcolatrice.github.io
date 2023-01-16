@@ -7,8 +7,8 @@ body {
 
 .pulsante {
     position: relative;
-    padding: 25%;
-    font-size: 100%;
+    padding: 10%;
+    font-size: 200%;
     background-color: rgb(129, 129, 255);
     border: 0cm;
 }
