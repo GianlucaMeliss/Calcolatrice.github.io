@@ -67,8 +67,8 @@ function Calcola() {
     //document.getElementById("ris").innerHTML += ris;
     document.getElementById("valori").innerHTML = num1 + " " + segno + " " + num2 + " " + "=" + " " + ris
     moreWords("valori", 150);
+    resto = num1;
     num1 = ris;
-    resto = 0;
     num2 = 'r';
 
 
