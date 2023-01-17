@@ -1,27 +1,28 @@
-body {
-    color: lavenderblush;
-    background-color: darkolivegreen;
-    text-align: center;
-    margin-top: 10%;
-}
-
-.pulsante {
-    position: relative;
-    padding: 5%;
-    font-size: 100%;
-    background-color: rgb(129, 129, 255);
-    color: brown;
-    border: 0cm;
-}
-
-h2 {
-    font-size: 300%;
-}
-
-textarea {
-    color: rgb(255, 85, 0);
-    background-color: rgb(0, 55, 87);
-    font-size: 350%;
-    resize: none;
-    width: 75%;
-}
+    body {
+        color: lavenderblush;
+        background-color: darkolivegreen;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .pulsante {
+        position: relative;
+        padding: 5%;
+        font-size: 100%;
+        background-color: rgb(129, 129, 255);
+        color: brown;
+        border: 0cm;
+        font-weight: bolder;
+    }
+    
+    h2 {
+        font-size: 300%;
+    }
+    
+    textarea {
+        color: rgb(255, 85, 0);
+        background-color: rgb(0, 55, 87);
+        font-size: 100%;
+        resize: none;
+        width: 75%;
+    }
